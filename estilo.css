@@ -1,0 +1,123 @@
+body{
+    background-color: #a786608a;
+}
+.colorNav{
+    background-color: #a8773e8a;
+  
+}
+.carouselSize {
+    height: 75vh;
+}
+.divContainerNav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.divContainerNav a{
+    margin-left: 5px;
+   
+   
+   
+} 
+.divContainerNav i{
+    font-size: 30px;
+  
+}
+.container div{
+    background-color:#6f1a0796;
+}
+.formularioEntero {
+    align-items: center;
+  }
+.formulario{
+    margin-top: 200px;
+    align-items: center;
+  }
+  form p{
+    font-size: 19px    ;
+    color: #000000;
+    margin: 30px 0 0 0;
+    align-items: center
+  }
+  legend{
+    font-size: 35px;
+    color: #000000;
+    align-items: center
+  }
+  label{
+    display: block;
+  
+  }
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"],
+  input[type="number"],
+  input[type="radio"],
+  input[type="date"],
+  input[type="time"],
+  textarea,
+  select
+  {
+    padding: 15px;
+    display: block;
+    width: 100%;
+    background-color: #e1e1e1;
+   
+  }
+  input[type="radio"]{
+    width: auto;
+    margin: 0;
+  }
+  textarea{
+    height: 320px   ;
+  }
+  .forma-contacto{
+    max-width: 320px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+ .mainUbicacion{
+    display: flex;
+    padding: 10px;
+ }
+ .ubicacionTexto{
+    width: 50%;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-left: 20px;
+    align-content: center;
+ }
+
+    
+ .mainNosotros{
+
+    display: flex;
+    padding: 10px;
+ }
+ .nosotrosTexto{
+    width: 50%;
+    margin-top: 3px;
+    margin-left: 20px;
+    margin-left: 20px;
+    align-content: center;
+ }
+ 
+@media (max-width: 768px){
+    body{
+        background-color: #68413896;
+    }
+.colorNav{
+background-color:#6f1a0796;
+}
+
+.carouselSize {
+    height: 60vh;
+}
+.container div{
+    background-color:#a786608a;
+}
+.formularioEntero {
+    align-items: center;
+  }
+}
